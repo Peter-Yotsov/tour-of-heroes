@@ -22,7 +22,8 @@
       "es2020",
       "dom"
     ],
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "jsx": "react",
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

@@ -12,6 +12,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { DashboardWrapperComponent } from 'src/components/dashboard/DashboardWrapper';
+import { MyComponentWrapperComponent } from 'src/components/my-react-component/MyReactComponentWrapper';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     MessagesComponent,
     DashboardComponent,
     HeroSearchComponent,
+    DashboardWrapperComponent,
+    MyComponentWrapperComponent,
   ],
   imports: [
     FormsModule,
